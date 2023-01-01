@@ -21,6 +21,27 @@ html {
     /* cursor: pointer; */
 }
 
+
+/* message icon */
+
+#message-icon {
+    position: fixed;
+    float: right;
+    z-index: 2221;
+    left: 95%;
+    top: 90%;
+    height: 50px;
+    width: 50px;
+}
+
+#message-icon .fa-facebook-messenger {
+    font-size: 50px;
+    color: #0695FF;
+}
+
+
+/* end of message icon */
+
 a {
     text-decoration: none;
     cursor: pointer;

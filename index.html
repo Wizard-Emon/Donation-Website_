@@ -2,43 +2,11 @@
 <html lang="en">
 
 <head>
-
-    <!-- Start of Async Drift Code -->
-    <script>
-        "use strict";
-
-        ! function() {
-            var t = window.driftt = window.drift = window.driftt || [];
-            if (!t.init) {
-                if (t.invoked) return void(window.console && console.error && console.error("Drift snippet included twice."));
-                t.invoked = !0, t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
-                    t.factory = function(e) {
-                        return function() {
-                            var n = Array.prototype.slice.call(arguments);
-                            return n.unshift(e), t.push(n), t;
-                        };
-                    }, t.methods.forEach(function(e) {
-                        t[e] = t.factory(e);
-                    }), t.load = function(t) {
-                        var e = 3e5,
-                            n = Math.ceil(new Date() / e) * e,
-                            o = document.createElement("script");
-                        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
-                        var i = document.getElementsByTagName("script")[0];
-                        i.parentNode.insertBefore(o, i);
-                    };
-            }
-        }();
-        drift.SNIPPET_VERSION = '0.3.1';
-        drift.load('v6w9rw3hatgv');
-    </script>
-    <!-- End of Async Drift Code -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-
+    <title>Donation-website</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet" />
@@ -49,22 +17,27 @@
     <script src="https://kit.fontawesome.com/844c8c7c76.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/media.css" />
-
 </head>
 
 <body>
     <!-- This is header section -->
-    <header>
+    <header id="main">
+        <!-- Messanger icon section -->
+        <div id="message-icon">
+            <!-- <i class="fa-solid fa-message"></i> -->
+            <i class="fa-brands fa-facebook-messenger"></i>
+        </div>
+        <!-- End of messenger icon section -->
         <nav>
             <div class="left-header" id="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a
                   >
                <ul>
-                <li><a href="#" style="color: #ff8957">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Memories</a></li>
-                <li><a href="oldagehomes.html">Old age homes</a></li>
+                  <li><a href="#banner-section" style="color: #ff8957">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact_us">Contact Us</a></li>
+                <li><a href="#memories">Memories</a></li>
+                <li><a href="oldagehomes.html">Old Age Homes</a></li>
                 </ul>
             </div>
             <span style="font-size: 30px; cursor: pointer" class="openbtn" onclick="openNav()">&#9776;</span
@@ -187,7 +160,7 @@
             </section>
             <!-- End of about section -->
             <!-- card section -->
-            <section class="card-section">
+            <section class="card-section" id="services">
                 <h1>
                     We are here with you, Wherever you are.
                 </h1>
@@ -371,7 +344,7 @@
             </section>
             <!-- end of worldwide -->
             <!-- Start of footer  -->
-            <footer>
+            <footer id="contact_us">
                 <div class="first-footer">
                     <div class="part one">
                         <div class="peragra">
@@ -424,7 +397,6 @@
                     </div>
                 </div>
                 <div class="last-footer">
-
                     <div class="rf">
                         <p>
                             Copyright&#169 2022. All rights reserved.
@@ -432,7 +404,6 @@
                     </div>
                     <div class="lf">
                         <a href="#">Privacy Policy </a><span> | </span> <a href="#">Terms of use</a>
-
                     </div>
                 </div>
             </footer>
