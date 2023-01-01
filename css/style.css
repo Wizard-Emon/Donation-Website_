@@ -802,34 +802,67 @@ header nav .right-header .button .button-two:hover {
 /* senior section */
 
 .senior-section {
-    padding: 50px 100px 100px 100px;
+    padding: 100px;
 }
 
-.senior-container {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: space-between;
+.senior-section .senior-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    /* padding: 100px 0px; */
 }
 
-.senior-container .left-container {
-    width: 50%;
-    padding: 50px;
-}
-
-.senior-container .left-container h1 {
+.senior-container h1 {
     font-weight: lighter;
 }
 
-.senior-container .left-container .p {
+.senior-container .p {
     padding: 30px 0px;
     color: rgba(0, 0, 0, 0.516);
 }
 
-.senior-container .left-container .card-container {}
+.senior-container .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 35px;
+}
 
-.senior-container .left-container .cards-se {
-    padding: 7px 0px;
+.senior-container .box-container .box {
+    background-color: rgba(241, 234, 234, 0.074);
+    padding: 0px 0px 20px 0px;
+    border-radius: 3px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.senior-container .box-container .box h1 {
+    padding: 10px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.senior-container .box-container .box p {
+    padding: 10px;
+    font-size: 15px;
+    color: rgba(24, 22, 22, 0.688);
+}
+
+.senior-container .box-container .box .image {
+    margin-bottom: 20px;
+    overflow: hidden;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.senior-container .box-container .box .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* .senior-container .left-container .cards-se {
+    padding: 0px 0px;
 }
 
 .senior-container .left-container .cards-se .para {
@@ -860,9 +893,10 @@ header nav .right-header .button .button-two:hover {
 .senior-container .right-container {
     width: 50%;
     position: relative;
-}
+} */
 
-.senior-container .right-container .card-conone {
+
+/* .senior-container .right-container .card-conone {
     position: absolute;
     background: url("../images/p.jpg");
     background-size: cover;
@@ -871,34 +905,50 @@ header nav .right-header .button .button-two:hover {
     width: 70%;
     left: 50%;
     /* top: 27%; */
-    bottom: 50%;
+
+
+/* bottom: 50%;
     transform: translate(-50%, 50%);
     border-radius: 10px;
-    z-index: 333;
-}
+    z-index: 333; */
 
-.senior-container .right-container .card-contwo {
+
+/* }  */
+
+
+/* .senior-container .right-container .card-contwo {
     position: absolute;
     height: 300px;
     width: 55%;
     background-color: #ff8957;
     left: 70%;
     /* top: 27%; */
-    bottom: 30%;
-    transform: translate(-55%, 0%);
-    border-radius: 10px;
-}
 
-.senior-container .right-container .card-conthree {
+
+/* bottom: 30%;
+    transform: translate(-55%, 0%);
+    border-radius: 10px; */
+
+
+/* } */
+
+
+/* .senior-container .right-container .card-conthree {
     position: absolute;
     height: 200px;
     width: 40%;
     background-color: #fdb813;
-    left: 50%;
-    /* top: 27%; */
-    transform: translate(-110%, 40%);
-    border-radius: 10px;
-}
+    left: 50%; */
+
+
+/* top: 27%; */
+
+
+/* transform: translate(-110%, 40%);
+    border-radius: 10px; */
+
+
+/* } */
 
 
 /* blog section start */
@@ -1099,15 +1149,16 @@ footer {
 }
 
 footer .first-footer {
-    padding: 100px 200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding: 20px 200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    /* justify-content: space-between;
+    align-items: center; */
 }
 
 footer .first-footer .part {
-    width: 30%;
-    padding: 15px;
+    /* width: 30%; */
+    padding: 30px;
 }
 
 footer .first-footer .one .peragra {
@@ -1133,9 +1184,10 @@ footer .first-footer .two ul li a {
     font-weight: lighter;
 }
 
-footer .first-footer .three {
+
+/* footer .first-footer .three {
     padding: 10px 0px 0px 0px;
-}
+} */
 
 footer .first-footer .three .register-btn {
     padding: 5px 10px;
