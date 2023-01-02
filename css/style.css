@@ -953,67 +953,21 @@ header nav .right-header .button .button-two:hover {
 
 /* blog section start */
 
-.blog-section {
-    padding: 50px 150px;
-}
 
-.blog-section .blog-container .head {
-    padding: 30px 0px 50px 0px;
-    font-size: 40px;
-}
+/* .main-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); 
+gap: 40px;
+} */
 
-.blog-section .blog-container .slider-cards {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.blog-section .blog-container .slider-cards .slider-card {
-    width: 30%;
-    height: 450px;
-    box-shadow: 0px 0px 5px 0px #00000071;
-    border-radius: 15px;
-    background: #dfdfdf;
-}
-
-.blog-section .blog-container .slider-cards .slider-card .img {
-    height: 65%;
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c6/1024x768-dsc04118.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 15px 15px 0px 0px;
+.i {
     position: relative;
 }
 
-.blog-section .blog-container .slider-cards .slider-card .text {
-    padding: 10px 0px;
-    height: 35%;
-    width: 100%;
-    border-radius: 0px 0px 20px 20px;
-}
-
-.blog-section .blog-container .slider-cards .slider-card .text h3 {
-    padding: 10px 15px;
-    line-height: 22px;
-    font-size: 18px;
-    line-height: 25px;
-}
-
-.blog-section .blog-container .slider-cards .slider-card .text p {
-    padding: 15px;
-    line-height: 25px;
-    font-size: 15px;
-    padding: 0px 15px;
-    line-height: 25px;
-    color: #616161;
-}
-
-.blog-section .blog-container .slider-cards .slider-card .img .button-up {
+.button-up {
     position: absolute;
-    left: 2%;
-    top: 2%;
+    margin-left: -30%;
+    margin-top: 3%;
     padding: 10px 20px;
     background-color: #fdb813;
     border-radius: 20px 0px 20px 0px;
@@ -1023,15 +977,31 @@ header nav .right-header .button .button-two:hover {
     color: #000000;
 }
 
-.blog-section .blog-container .slider-cards .slider-card .img .button-up:hover {
+.button-up:hover {
     background: #E1306C;
     color: #fff;
     transition: .3s;
 }
 
-.blog-section .blog-container .slider-cards .slider-card:hover .text {
+.bottom_part:hover {
+    background-color: #fdb813 !important;
+    color: ;
+}
+
+ :hover .text {
     background-color: #fdb813;
     transition: .3s ease-in-out;
+}
+
+.btn {
+    padding: 5px 15px;
+    margin: 10px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.more {
+    display: none;
 }
 
 
