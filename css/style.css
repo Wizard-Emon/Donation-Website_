@@ -185,7 +185,7 @@ header nav .right-header .button .button-two:hover {
 /* Banner part */
 
 #banner-section {
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c6/1024x768-dsc04118.jpg");
+    background-image: url("/images/Lading\ page.jpg");
     height: 900px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -366,21 +366,21 @@ header nav .right-header .button .button-two:hover {
 
 .about-container .left-section .up .i-one,
 .about-container .left-section .up .i-two {
-    background: url("../images/p.jpg");
+    background: url("../images/Second\ section\ 1.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .about-container .left-section .up .i-two {
-    background-image: url("../images/p.jpg");
+    background-image: url("../images/Second\ section\ 2.jpg");
 }
 
 .about-container .left-section .down {
     width: 100%;
     height: 250px;
     /* border: 1px solid red; */
-    background-image: url("../images/p.jpg");
+    background-image: url("../images/Second\ section\ 3.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -654,7 +654,7 @@ header nav .right-header .button .button-two:hover {
 }
 
 .who-section .container .right-div .middle-pic {
-    background-image: url('../images/p.jpg');
+    background-image: url('../images/Third\ section.jpg');
     position: absolute;
     width: 70%;
     height: 300px;
