@@ -86,14 +86,14 @@ header {
 }
 
 header nav {
-    width: 80%;
+    width: 85%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 header nav .left-header {
-    width: 70%;
+    width: 60%;
     display: flex;
     justify-content: right;
     align-items: center;
