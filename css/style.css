@@ -185,7 +185,7 @@ header nav .right-header .button .button-two:hover {
 /* Banner part */
 
 #banner-section {
-    background-image: url("/images/Lading\ page.jpg");
+    background-image: url("../images/Lading\ page.jpg");
     height: 900px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1122,8 +1122,6 @@ footer .first-footer {
     padding: 20px 200px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    /* justify-content: space-between;
-    align-items: center; */
 }
 
 footer .first-footer .part {

@@ -1,0 +1,16 @@
+.box {
+    box-shadow: none !important;
+}
+
+.image {
+    height: 100% !important;
+    border-radius: 0px !important;
+}
+
+.heading h1 {
+    font-size: 40px;
+}
+
+.box-container {
+    gap: 50px !important;
+}

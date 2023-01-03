@@ -273,74 +273,13 @@ header nav .right-header .button .button-two:hover {
 
 /* FOOTER */
 
-footer {
-    background-color: #000;
-    color: #fff;
-}
-
 footer .first-footer {
-    padding: 100px 200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding: 20px 200px;
+    align-items: flex-start;
 }
 
 footer .first-footer .part {
-    width: 30%;
-    padding: 15px;
-}
-
-footer .first-footer .one .peragra {
-    display: flex;
-    padding: 8px 0px;
-    line-height: 24px;
-    font-size: 13px;
-    font-weight: lighter;
-}
-
-footer .first-footer .two {
-    display: grid;
-    justify-content: end;
-}
-
-footer .first-footer .two ul li {
-    padding: 10px 0px;
-}
-
-footer .first-footer .two ul li a {
-    color: #fff;
-    font-size: 13px;
-    font-weight: lighter;
-}
-
-footer .first-footer .three {
-    padding: 10px 0px 0px 0px;
-}
-
-footer .first-footer .three .register-btn {
-    padding: 5px 10px;
-    border: none;
-    background-color: #ff8957;
-    color: #fff;
-    margin-left: 10px;
-    border-radius: 2px;
-    height: 28px;
-}
-
-footer .first-footer .three .register-btn:hover {
-    border: 1px solid #ff8957;
-    color: #ff8957;
-    background: none;
-}
-
-footer .last-footer {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 200px;
-    background-color: #fdb813;
-    text-align: center;
-    color: #000;
-    font-size: 13px;
+    padding: 30px;
 }
 
 
