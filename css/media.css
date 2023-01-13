@@ -12,6 +12,7 @@
     .sticky nav .left-header ul li a {
         font-size: 12px;
         padding: 5px;
+        color: #fff;
     }
     .sticky nav .right-header .button a {
         padding: 5px 8px;
@@ -60,6 +61,7 @@
     }
     header nav .left-header ul li a {
         padding: 5px;
+        color: #fff;
     }
     header nav .left-header ul {
         display: grid;
@@ -496,7 +498,6 @@
         display: grid;
         justify-content: start;
     }
-    footer .first-footer .three {}
     footer .first-footer .three .register-btn {
         margin-left: 0px;
         margin-top: 10px;
