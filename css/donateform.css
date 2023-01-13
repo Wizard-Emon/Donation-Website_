@@ -75,7 +75,7 @@ input {
     top: 50%;
     transform: translate(-50%, -50%);
     border-radius: 5px;
-    visibility: hidden;
+    display: none;
     transition: .5s ease-in-out;
 }
 
@@ -142,7 +142,7 @@ input {
 }
 
 .open-popup {
-    visibility: visible;
+    display: block;
 }
 
 @media screen and (max-width: 450px) {
